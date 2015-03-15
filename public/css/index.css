@@ -1,3 +1,23 @@
-p {
-	font-family : 'Lato', sans-serif;
+div.to_be_centered {
+    height: 10em;
+    position: relative }
+div.to_be_centered a {
+	color: black;
+	text-decoration: none;
+	font-size: 3em;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    font-family : 'Lato', sans-serif;
+    transform: translate(-50%, -50%); 
 }
+
+div.to_be_centered a:hover {
+	color: grey;
+	/*text-decoration: underline;*/
+
+}
+
+
