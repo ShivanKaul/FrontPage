@@ -5,6 +5,7 @@ function call_api() {
 			url: queryURL,
 			dataType: "jsonp",
 			crossOrigin: true,
+			cache: false,
 			statusCode: {
 	        	502: function () {
 	        		console.log("Error 502 thrown.")
