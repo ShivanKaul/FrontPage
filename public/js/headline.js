@@ -1,5 +1,5 @@
 function call_api() {
-	var queryURL = "http://api.nytimes.com/svc/news/v3/content/all/world/.jsonp?api-key=6b0b5eb0ff211fe59f2978cee9d8a906:14:71584868";
+	var queryURL = "https://api.nytimes.com/svc/news/v3/content/all/world/.jsonp?api-key=6b0b5eb0ff211fe59f2978cee9d8a906:14:71584868";
 	$(document).ready(function(){
 		$.ajax({
 			url: queryURL,
