@@ -20,8 +20,10 @@ function call_api() {
 					console.log(randomNum);
 					var title = results[randomNum].title;
 					var link = results[randomNum].url;
+					var abstract = results[randomNum].abstract;
 					document.getElementById("insert").setAttribute('href', link);
 					document.getElementById("insert").innerHTML = title;
+					document.getElementById("abstract").innerHTML = abstract;
 					// document.write(title);
 				}
 				else {

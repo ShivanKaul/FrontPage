@@ -20,6 +20,13 @@ a {
     color: black;
 }
 
+#abstract {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    color: grey;
+}
+
 a:hover {
     color: grey;
 }
