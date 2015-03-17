@@ -17,8 +17,8 @@ function call_api() {
 				if (numResults > 0) {
 					var title = "Letters to the Editor";
 					while (title == "Letters to the Editor") {
-						var seed = Math.min(19, numResults);
-						var randomNum = Math.floor((Math.random()*seed));
+						var bound = Math.min(19, numResults);
+						var randomNum = Math.floor((Math.random()*bound));
 						console.log(randomNum);
 						title = results[randomNum].title;
 					}
