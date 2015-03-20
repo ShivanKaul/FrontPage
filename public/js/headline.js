@@ -36,3 +36,4 @@ function call_api() {
 		});
 	});
 }
+call_api();
