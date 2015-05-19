@@ -14,7 +14,7 @@ div.to_be_centered a {
 	color: black;
 	vertical-align: middle;
 	text-decoration: none;
-	/* font-size: 3em; */
+	font-size: 3em;
 	margin: 15px;
 	position: absolute;
 	top: 50%;
