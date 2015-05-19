@@ -1,6 +1,6 @@
 function call_api() {
 	var public = secret
-	var queryURL = "https://api.nytimes.com/svc/news/v3/content/all/science/.json?api-key=" + public.API_KEY
+	var queryURL = "https://api.nytimes.com/svc/news/v3/content/all/science/.jsonp?api-key=" + public.API_KEY
 	$(document).ready(function(){
 		$.ajax({
 			url: queryURL,
