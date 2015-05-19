@@ -4,7 +4,8 @@ function call_api() {
 	$(document).ready(function(){
 		$.ajax({
 			url: queryURL,
-			dataType: "json",
+			dataType: "jsonp",
+			crossOrigin: true,
 			statusCode: {
 	        	502: function () {
 	        		console.log("Error 502 thrown.")
